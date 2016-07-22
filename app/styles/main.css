@@ -1,13 +1,13 @@
 .top-btn{
-	padding: 20px;
+	padding: 12px;
 }
 
 .top-btn-img{
 	float: left;
 }
 .top-btn-label{
-	margin-top:5px;
-	margin-left: 15px;
+	margin-top:1px;
+	margin-left: 8px;
 	float: left;
 }
 .top-btn-label>div:nth-child(1){
@@ -20,7 +20,7 @@
 }
 .ac-top{
 	width: 100%;
-	height: 370px;
+	height: 290px;
 	background: transparent url("../images/wode.jpg") no-repeat scroll center top / 100% 100%;
 }
 .user-area{
@@ -57,9 +57,9 @@
 }
 
 .wodeInfo{
-	margin-top:100px;
+	margin-top:20px;
 	width: 100%;
-	height: 50px;
+	height: 40px;
 	border-top: 1px solid #81b8d5;
 }
 .wodeBtn{
@@ -80,8 +80,8 @@
 	padding: 18px;
 }
 .link img{
-	width: 90px;
-	height: 90px;
+	width: 60px;
+	height: 60px;
 }
 
 .link p{
@@ -89,7 +89,7 @@
 }
 
 .re-content{
-	margin-top: 20px;
+	margin-top: 10px;
 	width: 100%;
 
 }
@@ -98,7 +98,7 @@
 	width: 100%;
 	height: 30px;
 	color: #010101;
-position: relative;
+	position: relative;
 }
 
 .coti p{
@@ -110,7 +110,7 @@ position: relative;
 	
 }
 .re-new {
-	height: 170px;
+	height: 160px;
 }
 
 .re-new .coti p{
@@ -122,19 +122,22 @@ position: relative;
 .faGame {
 	width: 50%;
 	float: left;
+
+	overflow: hidden;
 	position: relative;
 }
 .fayouImg{
 	width: 100%;
 	padding: 5px;
-    
+    height: 110px;
+    overflow: hidden;
 	
 }
 
 .fayouImg img {
     display: block;
     width: 100%;
-    height: 109px;
+    height: 100px;
     min-height: 100%;
     border-radius: 10px;
 }
@@ -151,7 +154,7 @@ position: relative;
 }
 
 .fayouTitle {
-    padding-top: 80px;
+    padding-top: 75px;
     padding-left: 10px;
     color: #FFFFFF;
 }
