@@ -1,6 +1,6 @@
 angular.module('starter.controllers', [])
 
-.controller('RecommendCtrl', function($scope) {
+.controller('RecommendCtrl', ['$scope',function($scope) {
 
   $scope.sign = function(){
     console.log('签到');
@@ -30,16 +30,14 @@ angular.module('starter.controllers', [])
     {'name':'小白人快跑','image':'images/y14.png','url':''},
   ];
   
-})
+}])
 
-.controller('DiscoverCtrl', function($scope) {
+.controller('DiscoverCtrl', ['$scope',function($scope) {
  
-})
+}])
 
 
 
-.controller('AccountCtrl', function($scope) {
-  $scope.setting = function(){
-    console.log('setting')
-  };
-});
+.controller('AccountCtrl', ['$scope',function($scope) {
+ 
+}]);
