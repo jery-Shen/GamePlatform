@@ -1,0 +1,62 @@
+<ion-view view-title="推荐">
+  <ion-content class="padding">
+
+    <div class="re-top-btn">
+      <div class="row">
+        <div class="col-50 top-btn" ng-click="sign()">
+
+          <div class="top-btn-img">
+            <img style="width:49px;" src="images/qiandao.png"></div>
+          <div class="top-btn-label">
+            <div>签到</div>
+            <div>连续签到有奖</div>
+          </div>
+
+        </div>
+        <div class="col-50 top-btn" ng-click="task()">
+
+          <div class="top-btn-img">
+            <img style="width:49px;" src="images/fujin.png"></div>
+          <div class="top-btn-label">
+            <div>附近的人</div>
+            <div>搜索附近玩家</div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+    <div class="re-content">
+      <div class="re-new">
+        <div class="coti">
+          <p>I New</p>
+          最新游戏
+        </div>
+        <div class="faGame" ng-repeat="game in newGames">
+          <div class="fayouImg">
+            <img src="{{game.image}}" ></div>
+          <div class="fayouTitle yuanxia kapiantiao ng-binding">{{game.name}}</div>
+        </div>
+        
+
+      </div>
+      <div class="re-hot">
+        <div class="coti">
+          <p>I Hot</p>
+          最热游戏
+        </div>
+
+        <div class="faGame" ng-repeat="game in hotGames">
+          <div class="fayouImg">
+            <img src="{{game.image}}" ></div>
+          <div class="fayouTitle yuanxia kapiantiao ng-binding">{{game.name}}</div>
+        </div>
+
+        <div class="faClear"></div>
+      </div>
+
+    </div>
+
+  </ion-content>
+</ion-view>

@@ -1,0 +1,163 @@
+.top-btn{
+	padding: 20px;
+}
+
+.top-btn-img{
+	float: left;
+}
+.top-btn-label{
+	margin-top:5px;
+	margin-left: 15px;
+	float: left;
+}
+.top-btn-label>div:nth-child(1){
+	color: #333333;
+	font-weight: bold;
+}
+
+.top-btn-label>div:nth-child(2){
+	color: #6d6d72;
+}
+.ac-top{
+	width: 100%;
+	height: 370px;
+	background: transparent url("../images/wode.jpg") no-repeat scroll center top / 100% 100%;
+}
+.user-area{
+	padding: 10px 0px;
+	text-align: center;
+}
+.user-head{
+	width: 100px; height:100px; border-radius: 70px; 
+    padding:6px;background-color:rgba(255,255,255,0.25); display:inline-block;
+}
+.user-head .head-img{
+    width:100%;
+    height: 100%;
+    border-radius: 80px;
+    background: transparent url("../images/head.jpg") no-repeat scroll center top / 100% 100%;
+}
+.user-name{
+	font-size: 16px;
+	color: #fff;
+}
+.wodeSet {
+    text-align: right;
+    height: 4em;
+}
+.wodeSet a {
+    width: 2em;
+    margin-right: 20px;
+    margin-top: 20px;
+    float: right;
+}
+
+.wodeSet img {
+    width: 100%;
+}
+
+.wodeInfo{
+	margin-top:100px;
+	width: 100%;
+	height: 50px;
+	border-top: 1px solid #81b8d5;
+}
+.wodeBtn{
+	text-align: center;
+	color: #fff;
+}
+
+.wodeBtn>p:nth-child(1){
+	height: 12px;
+}
+
+.wodeBtn>p:nth-child(2){
+	color: rgb(158, 201, 221);
+	height: 10px;
+}
+.link{
+	text-align: center;
+	padding: 18px;
+}
+.link img{
+	width: 90px;
+	height: 90px;
+}
+
+.link p{
+	color: #6d6d72;
+}
+
+.re-content{
+	margin-top: 20px;
+	width: 100%;
+
+}
+
+.coti{
+	width: 100%;
+	height: 30px;
+	color: #010101;
+position: relative;
+}
+
+.coti p{
+	float: left;
+	margin-left: 5px;
+	margin-right: 10px;
+	font-weight: bold;
+	display: block;
+	
+}
+.re-new {
+	height: 170px;
+}
+
+.re-new .coti p{
+	color: #00daff;
+}
+.re-hot .coti p{
+	color: rgb(255, 210, 0);
+}
+.faGame {
+	width: 50%;
+	float: left;
+	position: relative;
+}
+.fayouImg{
+	width: 100%;
+	padding: 5px;
+    
+	
+}
+
+.fayouImg img {
+    display: block;
+    width: 100%;
+    height: 109px;
+    min-height: 100%;
+    border-radius: 10px;
+}
+
+.kapiantiao {
+    position: absolute;
+    bottom: 5px;
+    top: 5px;
+    box-sizing: border-box;
+    left: 5px;
+    right: 5px;
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 10px;
+}
+
+.fayouTitle {
+    padding-top: 80px;
+    padding-left: 10px;
+    color: #FFFFFF;
+}
+
+.faClear{
+	width: 100%;
+	height: 20px;
+	float: left;
+}

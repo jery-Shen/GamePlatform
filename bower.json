@@ -1,0 +1,8 @@
+{
+  "name": "gameplatform",
+  "private": true,
+  "dependencies": {
+    "jquery": "^1.7.1",
+    "ionic": "^1.3.1"
+  }
+}
